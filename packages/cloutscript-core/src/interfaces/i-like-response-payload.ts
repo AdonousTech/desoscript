@@ -1,3 +1,10 @@
+
+/**
+ * Response object shape of LIKE transaction request on BitClout
+ * /api/v0/create-like-stateless
+ * @export
+ * @interface ILikeResponsePayload
+ */
 export interface ILikeResponsePayload {
     TotalInputNanos: number;
     ChangeAmountNanos: number;
