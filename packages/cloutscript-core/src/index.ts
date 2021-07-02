@@ -3,3 +3,4 @@
  * 
  * @module cloutscript-core
 */
+export * from './interfaces';
