@@ -1,0 +1,42 @@
+{
+  "name": "@adonoustech/cloutscript-core",
+  "version": "0.0.0",
+  "scripts": {
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:es": "tsc -p tsconfig.es.json",
+    "build": "npm run build:es && npm run build:cjs",
+    "test": "jest"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.js",
+  "types": "./dist/types/index.d.ts",
+  "author": {
+    "name": "Matt Pitts",
+    "url": "https://bitclout.com/u/mattpitts"
+  },
+  "description": "Core package for CloutScript",
+  "keywords": [
+    "BitClout"
+  ],
+  "homepage": "https://bitclout.com/u/cloutscript",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.5"
+
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdonousTech/cloutscript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdonousTech/cloutscript/issues"
+  }
+}
