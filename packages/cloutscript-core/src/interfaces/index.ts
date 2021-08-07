@@ -1,4 +1,6 @@
 export * from './i-comment';
+export * from './i-get-follows-stateless-request-payload';
+export * from './i-get-follows-stateless-response-payload';
 export * from './i-get-single-profile-request-payload';
 export * from './i-get-single-profile-response-payload';
 export * from './i-get-users-stateless-request-payload';
