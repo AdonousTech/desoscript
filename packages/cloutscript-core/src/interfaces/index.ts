@@ -1,4 +1,5 @@
 export * from './i-balance-entry-response';
+export * from './i-bitclout-identity-users-object';
 export * from './i-comment';
 export * from './i-get-follows-stateless-request-payload';
 export * from './i-get-follows-stateless-response-payload';
