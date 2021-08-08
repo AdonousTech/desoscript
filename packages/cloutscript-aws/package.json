@@ -1,0 +1,29 @@
+{
+  "name": "@adonoustech/cloutscript-aws",
+  "version": "0.6.0",
+  "description": "AWS utitlies for BitClout development",
+  "author": "Matt Pitts <mattapitts@gmail.com>",
+  "homepage": "https://github.com/AdonousTech/cloutscript#readme",
+  "license": "ISC",
+  "main": "lib/cloutscript-aws.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdonousTech/cloutscript.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/AdonousTech/cloutscript/issues"
+  }
+}
