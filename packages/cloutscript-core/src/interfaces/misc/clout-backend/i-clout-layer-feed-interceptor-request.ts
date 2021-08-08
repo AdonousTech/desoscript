@@ -1,4 +1,4 @@
-import { IGetGlobalFeedRequestPayload } from "../feeds/i-get-global-feed-request-payload";
+import { IGetGlobalFeedRequestPayload } from "../../feeds/i-get-global-feed-request-payload";
 
 export interface ICloutLayerFeedInterceptorRequest {
     userSub: string;
