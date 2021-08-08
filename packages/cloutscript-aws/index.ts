@@ -3,4 +3,4 @@
  * 
  * @module cloutscript-aws
 */
-export * from './src/interfaces';
+export * from './src';
