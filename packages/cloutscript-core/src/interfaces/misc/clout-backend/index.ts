@@ -12,3 +12,4 @@ export * from './i-clout-layer-stateless-follow-request';
 export * from './i-clout-layer-stateless-user-request';
 export * from './i-clout-layer-submit-post-request';
 export * from './i-clout-layer-submit-tx-request';
+export * from './i-clout-layer-interceptor-request';
