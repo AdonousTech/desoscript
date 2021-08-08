@@ -1,4 +1,4 @@
-import { IGetSingleProfileRequestPayload } from "../users/i-get-single-profile-request-payload";
+import { IGetSingleProfileRequestPayload } from "../../users/i-get-single-profile-request-payload";
 
 export interface ICloutLayerSingleProfileRequest {
     userSub: string;

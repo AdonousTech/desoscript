@@ -1,4 +1,4 @@
-import { IUser } from './i-user';
+import { IUser } from '../users/i-user';
 
 /**
  * Response object for followers request

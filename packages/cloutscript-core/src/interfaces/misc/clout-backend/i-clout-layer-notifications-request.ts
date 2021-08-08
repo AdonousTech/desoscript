@@ -1,4 +1,4 @@
-import { INotificationsRequestPayload } from "../notifications/i-notifications-request-payload";
+import { INotificationsRequestPayload } from "../../notifications/i-notifications-request-payload";
 
 export interface ICloutLayerNotificationsRequest {
     userSub: string;

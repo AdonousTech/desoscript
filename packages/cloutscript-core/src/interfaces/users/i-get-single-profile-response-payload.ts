@@ -1,5 +1,5 @@
-import { IComment } from "./i-comment";
-import { IPost } from "./i-post";
+import { IComment } from "../comments/i-comment";
+import { IPost } from "../posts/i-post";
 import { IUser } from "./i-user";
 
 /**

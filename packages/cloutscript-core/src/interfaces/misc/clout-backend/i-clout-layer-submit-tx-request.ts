@@ -1,4 +1,4 @@
-import { ISubmitTransactionPayload } from "../transactions/i-submit-transaction-payload";
+import { ISubmitTransactionPayload } from "../../transactions/i-submit-transaction-payload";
 
 export interface ICloutLayerSubmitTxRequest {
     userSub: string;

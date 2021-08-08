@@ -1,4 +1,4 @@
-import { ILike } from "../likes/i-like";
+import { ILike } from "../../likes/i-like";
 
 export interface ICloutLayerLikePostRequest {
     userSub: string;

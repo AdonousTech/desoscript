@@ -1,4 +1,4 @@
-import { IPostSubmittable } from "../posts/i-post-submittable";
+import { IPostSubmittable } from "../../posts/i-post-submittable";
 
 export interface ICloutLayerSubmitPostRequest {
     userSub: string;

@@ -1,4 +1,4 @@
-import { IGetPostsForPublicKeyPayload } from "../posts/i-get-posts-for-public-key-payload";
+import { IGetPostsForPublicKeyPayload } from "../../posts/i-get-posts-for-public-key-payload";
 
 export interface ICloutLayerPublicKeyPostsRequest {
     userSub: string;
