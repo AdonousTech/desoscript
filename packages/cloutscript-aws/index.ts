@@ -1,6 +1,6 @@
 /**
- * Cloutscript Extras
+ * Cloutscript AWS
  * 
- * @module cloutscript-extras
+ * @module cloutscript-aws
 */
 export * from './src/interfaces';
