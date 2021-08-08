@@ -1,4 +1,4 @@
-export enum PassthroughRoutes {
+export enum CanonicalPassthroughRoutes {
     CLOUT = "/clout",
     DATAREQUEST = "/data",
     STORAGEREQUEST = "/object",
