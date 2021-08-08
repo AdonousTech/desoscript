@@ -1,10 +1,16 @@
-//auth
+// auth
 export * from './auth/i-cognito-id-token-payload';
-//data
+// data
 export * from './data/i-data-layer-interceptor-request';
-//logs
+// iot
+export * from './iot/iot-perms-broker-request-payload';
+export * from './iot/iot-perms-broker-request';
+// logs
 export * from './logs/i-log-metric-filter';
-//object
+// object
 export * from './object/i-object-layer-interceptor-request';
-//queue
+// queue
 export * from './queue/i-queue-layer-interceptor-request';
+// statemachine
+export * from './statemachine/i-step-functions-start-execution-payload';
+export * from './statemachine/i-state-machine-invocation-request';
