@@ -1,6 +1,7 @@
 // clout
 
 // passthrough
+export * from './passthrough/canonical-cli-instructions.enum';
 export * from './passthrough/canonical-dli-instructions.enum';
 export * from './passthrough/canonical-oli-instructions.enum';
 export * from './passthrough/canonical-passthrough-errors.enum';
