@@ -1,4 +1,4 @@
-export enum CanonicalCLIInstructions {
+export const enum CanonicalCLIInstructions {
     BUY_CREATOR_COIN = "buy-creator-coin",
     CHECK_KEY = "check-key",
     GET_SINGLE_PROFILE = "single-profile",
