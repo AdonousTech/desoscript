@@ -1,6 +1,6 @@
 {
   "name": "@adonoustech/cloutscript-extras",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "scripts": {
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:es": "tsc -p tsconfig.es.json",
