@@ -3,4 +3,4 @@
  * 
  * @module cloutscript-extras
 */
-export * from './src/interfaces';
+export * from './src/interfaces/index';
