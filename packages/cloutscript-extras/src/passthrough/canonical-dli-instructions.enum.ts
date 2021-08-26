@@ -1,4 +1,4 @@
-export enum CanonicalDLIInstructions {
+export const enum CanonicalDLIInstructions {
     PUT = 'put',
     UPDATE = 'update',
     QUERY = 'query',
