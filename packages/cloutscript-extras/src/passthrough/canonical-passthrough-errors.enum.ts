@@ -1,3 +1,3 @@
-export enum CanonicalPassthroughErrors {
+export const enum CanonicalPassthroughErrors {
     CONDITIONALCHECKFAILEDEXCEPTION = "ConditionalCheckFailedException"
 }
