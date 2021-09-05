@@ -10,6 +10,7 @@ export * from './diamonds/i-send-diamond-response-payload';
 export * from './feeds/i-get-global-feed-request-payload';
 export * from './feeds/i-get-global-feed-response-payload';
 // financial
+export * from './financial/i-coin-buy-preview';
 export * from './financial/i-balance-entry-response';
 export * from './financial/i-exchange-rate-request-payload';
 export * from './financial/i-exchange-rate-response-payload';
