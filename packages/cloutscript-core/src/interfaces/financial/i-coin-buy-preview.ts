@@ -3,5 +3,14 @@ import { IGetSingleProfileResponsePayload } from "../users/i-get-single-profile-
 export interface ICoinBuyPreview {
     Buyer: IGetSingleProfileResponsePayload,
     Seller: IGetSingleProfileResponsePayload,
-    BitCloutToSellNanos: number
+    ChangeAmountNanos: number;
+    ExpectedBitCloutReturnedNanos: number;
+    ExpectedCreatorCoinReturnedNanos: number;
+    FeeNanos: number;
+    FounderRewardGeneratedNanos: number;
+    SpendAmountNanos: number;
+    TotalInputNanos: number;
+    Transaction: any;
+    TransactionHex: string;
+    
 }
