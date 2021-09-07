@@ -16,3 +16,5 @@ export * from './src/interfaces/project/i-project-activity';
 export * from './src/interfaces/project/i-project-roadmap-entry';
 export * from './src/interfaces/project/i-project-roadmap';
 export * from './src/interfaces/project/i-project';
+// feed
+export * from './src/feed/feed-filter-codes.enum';
