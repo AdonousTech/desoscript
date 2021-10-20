@@ -1,6 +1,6 @@
 {
   "name": "@adonoustech/desoscript-core",
-  "version": "0.17.1",
+  "version": "0.17.2",
   "scripts": {
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:es": "tsc -p tsconfig.es.json",
