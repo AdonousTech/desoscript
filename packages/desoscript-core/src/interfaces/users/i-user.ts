@@ -10,40 +10,47 @@ export interface IUser {
     BalanceNanos?: number;
     BlockedPubKeys?: {[key: string]: any};
     CanCreateProfile?: boolean;
+    CreatorCoinsPurchasedInTutorial?: number;
+    EmailVerified?: boolean;
+    HasEmail?: boolean;
     HasPhoneNumber?: boolean;
     IsAdmin?: boolean;
+    IsBlacklisted?: boolean;
+    IsGraylisted?: boolean;
+    IsSuperAdmin?: boolean;
+    JumioFinishedTime?: number;
+    JumioReturned?: boolean;
+    JumioStartTime?: number;
+    JumioVerified?: boolean;
+    MustCompleteTutorial?: boolean;
     ProfileEntryResponse?: {
         CoinEntry?: {
-            BitCloutLockedNanos: number;
-            CoinWatermarkNanos: number;
-            CoinsInCirculationNanos: number;
-            CreatorBasisPoints: number;
-            NumberOfHolders: number;
+            CoinWatermarkNanos?: number;
+            CoinsInCirculationNanos?: number;
+            CreatorBasisPoints?: number;
+            DeSoLockedNanos?: number;
+            NumberOfHolders?: number;
         };
-        CoinPriceBitCloutNanos?: number;
+        CoinPriceDeSoNanos?: number;
         Comments?: IComment[];
         Description?: string;
+        IsFeaturedTutorialUpAndComingCreator?: boolean;
+        IsFeaturedTutorialWellKnownCreator?: boolean;
         IsHidden?: boolean;
         IsReserved?: boolean;
         IsVerified?: boolean;
         Posts?: IPost[];
         ProfilePic?: string;
         PublicKeyBase58Check?: string;
-        StakeEntryStats?: {
-            TotalCreatorEarningsNanos: number;
-            TotalFeesBurnedNanos: number;
-            TotalPostStakeNanos: number;
-            TotalStakeNanos: number;
-            TotalStakeOwedNanos: number;
-        };
-        StakeMultipleBasisPoints?: number;
         Username?: string;
         UsersThatHODL?: IUser[];
 
     };
     PublicKeyBase58Check?: string;
     PublicKeysBase58CheckFollowedByUser?: string[];
-    UnminedBalanceNanos: number;
-    UsersWhoHODLYou: IUser[];
-    UsersYouHODL: IUser[];
+    ReferralInfoResponses?: any;
+    TutorialStatus?: string;
+    UnminedBalanceNanos?: number;
+    UsersWhoHODLYouCount?: number;
+    UsersYouHODL?: IUser[];
 }
