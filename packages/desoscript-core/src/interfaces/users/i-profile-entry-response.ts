@@ -5,10 +5,10 @@ export interface IProfileEntryResponse {
     Description?: string;
     ProfilePic?: string;
     CoinEntry?: {
-      DeSoLockedNanos: number;
-      CoinWatermarkNanos: number;
-      CoinsInCirculationNanos: number;
-      CreatorBasisPoints: number;
+      DeSoLockedNanos?: number;
+      CoinWatermarkNanos?: number;
+      CoinsInCirculationNanos?: number;
+      CreatorBasisPoints?: number;
     };
     CoinPriceDeSoNanos?: number;
     StakeMultipleBasisPoints?: number;
