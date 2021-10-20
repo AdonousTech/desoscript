@@ -15,6 +15,7 @@ export * from './financial/i-balance-entry-response';
 export * from './financial/i-exchange-rate-request-payload';
 export * from './financial/i-exchange-rate-response-payload';
 export * from './financial/i-hodlr-request-payload';
+export * from './financial/i-transaction-fee';
 // follows
 export * from './follows/i-get-follows-stateless-request-payload';
 export * from './follows/i-get-follows-stateless-response-payload';
