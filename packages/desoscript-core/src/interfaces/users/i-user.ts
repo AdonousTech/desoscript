@@ -51,6 +51,7 @@ export interface IUser {
     PublicKeysBase58CheckFollowedByUser?: string[];
     ReferralInfoResponses?: any;
     TutorialStatus?: TutorialStatus;
+    CreatorPurchasedInTutorialUsername?: string;
     UnminedBalanceNanos?: number;
     UsersWhoHODLYouCount?: number;
     UsersYouHODL?: IBalanceEntryResponse[];
