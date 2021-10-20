@@ -47,6 +47,8 @@ export * from './posts/i-get-single-post-response-payload';
 export * from './posts/i-post';
 export * from './posts/i-post-submit-response-payload';
 export * from './posts/i-post-submittable';
+export * from './posts/i-post-entry-reader-state';
+export * from './posts/i-post-entry-response';
 // transactions
 export * from './transactions/i-submit-transaction-payload';
 export * from './transactions/i-submit-transaction-request-payload';
@@ -58,4 +60,5 @@ export * from './users/i-get-users-stateless-request-payload';
 export * from './users/i-get-users-stateless-response-payload';
 export * from './users/i-logged-in-user-observable-result';
 export * from './users/i-profile';
+export * from './users/i-profile-entry-response';
 export * from './users/i-user';
