@@ -1,8 +1,8 @@
 import { IPostEntryResponse } from "../posts/i-post-entry-response";
 
 export interface IProfileEntryResponse {
-    Username: string;
-    Description: string;
+    Username?: string;
+    Description?: string;
     ProfilePic?: string;
     CoinEntry?: {
       DeSoLockedNanos: number;
