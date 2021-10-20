@@ -1,4 +1,4 @@
-import { TutorialStatus } from "packages/desoscript-core";
+import { IBalanceEntryResponse, TutorialStatus } from "packages/desoscript-core";
 import { IComment } from "../comments/i-comment";
 import { IPost } from "../posts/i-post";
 
@@ -53,5 +53,5 @@ export interface IUser {
     TutorialStatus?: TutorialStatus;
     UnminedBalanceNanos?: number;
     UsersWhoHODLYouCount?: number;
-    UsersYouHODL?: IUser[];
+    UsersYouHODL?: IBalanceEntryResponse[];
 }
