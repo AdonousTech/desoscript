@@ -1,4 +1,5 @@
-import { IBalanceEntryResponse, TutorialStatus } from "packages/desoscript-core";
+import { IBalanceEntryResponse } from "../financial/i-balance-entry-response";
+import { TutorialStatus } from "../../enums"; 
 import { IComment } from "../comments/i-comment";
 import { IPost } from "../posts/i-post";
 

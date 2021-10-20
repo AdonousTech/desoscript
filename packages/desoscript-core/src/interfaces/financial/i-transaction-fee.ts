@@ -1,4 +1,4 @@
-import { IProfileEntryResponse } from "packages/desoscript-core";
+import { IProfileEntryResponse } from "../users/i-profile-entry-response";
 
 export interface ITransactionFee {
     PublicKeyBase58Check: string;
