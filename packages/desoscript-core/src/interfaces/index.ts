@@ -57,6 +57,8 @@ export * from './posts/i-post-submit-response-payload';
 export * from './posts/i-post-submittable';
 export * from './posts/i-post-entry-reader-state';
 export * from './posts/i-post-entry-response';
+// template
+export * from './template/i-get-block-template-request-payload'
 // transactions
 export * from './transactions/i-transaction-fee';
 export * from './transactions/i-transaction';
