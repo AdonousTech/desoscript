@@ -42,6 +42,7 @@ export * from './nft/i-create-nft-bid-request-payload';
 export * from './nft/i-accept-nft-bid-request-payload';
 export * from './nft/i-decrypt-ul-texts-request-payload';
 export * from './nft/i-get-nft-bids-nft-post-request-payload';
+export * from './nft/i-get-nfts-for-user-request-payload';
 // notifications
 export * from './notifications/i-notification';
 export * from './notifications/i-notification-bitcoin-exchange-tx-index-metadata';
