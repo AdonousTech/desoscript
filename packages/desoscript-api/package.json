@@ -1,6 +1,6 @@
 {
   "name": "@adonoustech/desoscript-api",
-  "version": "0.0.0",
+  "version": "0.18.0",
   "scripts": {
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:es": "tsc -p tsconfig.es.json",
