@@ -16,7 +16,6 @@ export * from './financial/i-balance-entry-response';
 export * from './financial/i-exchange-rate-request-payload';
 export * from './financial/i-exchange-rate-response-payload';
 export * from './financial/i-hodlr-request-payload';
-export * from './financial/i-transaction-fee';
 // follows
 export * from './follows/i-get-follows-stateless-request-payload';
 export * from './follows/i-get-follows-stateless-response-payload';
@@ -53,6 +52,7 @@ export * from './posts/i-post-submittable';
 export * from './posts/i-post-entry-reader-state';
 export * from './posts/i-post-entry-response';
 // transactions
+export * from './transactions/i-transaction-fee';
 export * from './transactions/i-transaction';
 export * from './transactions/i-submit-transaction-payload';
 export * from './transactions/i-submit-transaction-request-payload';
