@@ -29,6 +29,9 @@ export * from './misc/deso-backend';
 // nft
 export * from './nft/i-nft-entry-response';
 export * from './nft/i-nft-bid-entry-response';
+export * from './nft/i-nft-collection-response';
+export * from './nft/i-nft-bid-data';
+
 // notifications
 export * from './notifications/i-notification';
 export * from './notifications/i-notification-bitcoin-exchange-tx-index-metadata';
