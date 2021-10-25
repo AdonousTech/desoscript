@@ -30,7 +30,7 @@
       "out": "docs",
       "exclude": ["**/node_modules/**", "**/*.spec.ts"],
       "excludeExternals": true,
-      "name": "Resplice",
+      "name": "DesoScript",
       "ignoreCompilerErrors": true,
       "theme": "minimal",
       "hideGenerator": true,
