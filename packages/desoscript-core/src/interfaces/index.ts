@@ -20,6 +20,8 @@ export * from './financial/i-send-deso-preview';
 // follows
 export * from './follows/i-get-follows-stateless-request-payload';
 export * from './follows/i-get-follows-stateless-response-payload';
+// image
+export * from './image/i-upload-image-request-payload';
 // likes
 export * from './likes/i-like';
 export * from './likes/i-like-request-payload';
@@ -34,6 +36,7 @@ export * from './nft/i-nft-entry-response';
 export * from './nft/i-nft-bid-entry-response';
 export * from './nft/i-nft-collection-response';
 export * from './nft/i-nft-bid-data';
+export * from './nft/i-create-nft-request-payload';
 
 // notifications
 export * from './notifications/i-notification';
@@ -68,6 +71,7 @@ export * from './transactions/i-transaction';
 export * from './transactions/i-get-transaction-request-payload';
 export * from './transactions/i-submit-transaction-payload';
 export * from './transactions/i-submit-transaction-request-payload';
+export * from './transactions/i-get-all-tx-outputs-request-payload';
 //users
 export * from './users/i-deso-identity-users-object';
 export * from './users/i-get-single-profile-request-payload';
