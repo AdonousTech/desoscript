@@ -38,6 +38,7 @@ export * from './nft/i-nft-collection-response';
 export * from './nft/i-nft-bid-data';
 export * from './nft/i-create-nft-request-payload';
 export * from './nft/i-update-nft-request-payload';
+export * from './nft/i-create-nft-bid-request-payload';
 
 // notifications
 export * from './notifications/i-notification';
