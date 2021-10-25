@@ -4,6 +4,7 @@ export * from './comments/i-comment';
 export * from './creatorcoin/i-buy-creator-coin-request-payload';
 export * from './creatorcoin/i-buy-creator-coin-response-payload';
 // diamonds
+export * from './diamonds/i-diamonds-post';
 export * from './diamonds/i-send-diamond-request-payload';
 export * from './diamonds/i-send-diamond-response-payload';
 //feeds
