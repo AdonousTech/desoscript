@@ -51,6 +51,7 @@ export * from './posts/i-post-submittable';
 export * from './posts/i-post-entry-reader-state';
 export * from './posts/i-post-entry-response';
 // transactions
+export * from './transactions/i-transaction';
 export * from './transactions/i-submit-transaction-payload';
 export * from './transactions/i-submit-transaction-request-payload';
 //users
