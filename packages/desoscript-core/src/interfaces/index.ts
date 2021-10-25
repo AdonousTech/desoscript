@@ -26,6 +26,8 @@ export * from './likes/i-like-response-payload';
 export * from './likes/i-submit-like-tx-response-payload';
 // misc
 export * from './misc/deso-backend';
+// nft
+export * from './nft/i-nft-entry-response';
 // notifications
 export * from './notifications/i-notification';
 export * from './notifications/i-notification-bitcoin-exchange-tx-index-metadata';
