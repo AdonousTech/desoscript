@@ -62,6 +62,7 @@ export * from './template/i-get-block-template-request-payload'
 // transactions
 export * from './transactions/i-transaction-fee';
 export * from './transactions/i-transaction';
+export * from './transactions/i-get-transaction-request-payload';
 export * from './transactions/i-submit-transaction-payload';
 export * from './transactions/i-submit-transaction-request-payload';
 //users
