@@ -46,6 +46,7 @@ export * from './nft/i-get-nfts-for-user-request-payload';
 export * from './nft/i-get-nft-bids-for-user-request-payload';
 export * from './nft/i-get-nft-showcase-request-payload';
 export * from './nft/i-get-nft-collection-summary-request-payload';
+export * from './nft/i-get-nft-entries-for-post-request-payload';
 // notifications
 export * from './notifications/i-notification';
 export * from './notifications/i-notification-bitcoin-exchange-tx-index-metadata';
