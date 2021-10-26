@@ -1,3 +1,9 @@
+
+/**
+ * Updated for DeSo
+ * @export
+ * @interface IExchangeRateResponsePayload
+ */
 export interface IExchangeRateResponsePayload {
     SatoshisPerDeSoExchangeRate: number,
     USDCentsPerBitcoinExchangeRate: number,
