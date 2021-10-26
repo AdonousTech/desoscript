@@ -62,6 +62,7 @@ export * from './notifications/i-notification-update-profile-tx-index-metadata';
 export * from './notifications/i-notifications-request-payload';
 export * from './notifications/i-notifications-response.payload';
 // posts
+export * from './posts/i-submit-post-request-payload';
 export * from './posts/i-post-txn-body';
 export * from './posts/i-get-posts-for-public-key-payload';
 export * from './posts/i-get-posts-for-public-key-response-payload';
