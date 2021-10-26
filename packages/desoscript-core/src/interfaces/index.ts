@@ -20,6 +20,7 @@ export * from './financial/i-exchange-rate-response-payload';
 export * from './financial/i-hodlr-request-payload';
 export * from './financial/i-send-deso-preview';
 // follows
+export * from './follows/i-get-follows-request-payload';
 export * from './follows/i-get-follows-stateless-request-payload';
 export * from './follows/i-get-follows-stateless-response-payload';
 // image
