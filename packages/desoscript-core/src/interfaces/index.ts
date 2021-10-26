@@ -71,6 +71,7 @@ export * from './notifications/i-notification-update-profile-tx-index-metadata';
 export * from './notifications/i-notifications-request-payload';
 export * from './notifications/i-notifications-response.payload';
 // posts
+export * from './posts/i-get-quote-reposts-post-request-payload';
 export * from './posts/i-get-reposts-posts-request-payload';
 export * from './posts/i-get-posts-stateless-request-payload';
 export * from './posts/i-submit-post-request-payload';
