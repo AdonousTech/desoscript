@@ -86,6 +86,7 @@ export * from './transactions/i-submit-transaction-payload';
 export * from './transactions/i-submit-transaction-request-payload';
 export * from './transactions/i-get-all-tx-outputs-request-payload';
 //users
+export * from './users/i-update-profile-request-payload';
 export * from './users/i-get-profiles-request-payload';
 export * from './users/i-deso-identity-users-object';
 export * from './users/i-get-single-profile-request-payload';
