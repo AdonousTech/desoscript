@@ -9,7 +9,7 @@ export class DeSoFacade {
         token ? this.token = token : this.token = undefined;
     }
 
-    public updateAndReturnConfig(endpoint: string, route: string, payload: any, isGet?: boolean): void {
+    public updateAndReturnConfig(endpoint: string, route: string, payload: any, isGet?: boolean): AxiosRequestConfig {
         this.config.baseURL = endpoint; // e.g. https://api.bitcloutapps.ninja
         this.config.url = route;
         
@@ -28,6 +28,8 @@ export class DeSoFacade {
         if (this.token) {
             this.config.headers['Authorization'] = this.token
         }
+
+        return this.config
     }
 
     
