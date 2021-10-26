@@ -5,6 +5,7 @@ export * from './creatorcoin/i-get-hodlers-for-pub-key-request-payload';
 export * from './creatorcoin/i-buy-creator-coin-request-payload';
 export * from './creatorcoin/i-buy-creator-coin-response-payload';
 // diamonds
+export * from './diamonds/i-get-diamonds-pub-key-request-payload';
 export * from './diamonds/i-get-diamonded-posts-request-payload';
 export * from './diamonds/i-diamonds-post';
 export * from './diamonds/i-send-diamond-request-payload';
