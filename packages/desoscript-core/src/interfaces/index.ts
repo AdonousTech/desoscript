@@ -1,6 +1,7 @@
 // comments
 export * from './comments/i-comment';
 // creator coin
+export * from './creatorcoin/i-transfer-creator-coin-request-payload';
 export * from './creatorcoin/i-buy-sell-creator-coin-request-payload';
 export * from './creatorcoin/i-get-hodlers-for-pub-key-request-payload';
 export * from './creatorcoin/i-buy-creator-coin-request-payload';
