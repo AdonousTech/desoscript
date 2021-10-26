@@ -32,6 +32,7 @@ export * from './likes/i-like-request-payload';
 export * from './likes/i-like-response-payload';
 export * from './likes/i-submit-like-tx-response-payload';
 // messages
+export * from './messages/i-get-messages-request-payload';
 export * from './messages/i-send-message-request-payload';
 // misc
 export * from './misc/deso-backend';
