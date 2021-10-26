@@ -46,7 +46,7 @@ export class DesoRequestHelper {
                        reject(error.message);
                     }
                 })
-            } catch (error: any) {
+            } catch (error) {
                 console.error('[ERROR] - CAUGHT IN PROMISE :: ', error);
                 reject(error);
             }
