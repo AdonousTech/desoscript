@@ -9,7 +9,7 @@ export class DeSoFacade {
         token ? this.token = token : this.token = undefined;
     }
 
-    public updateAndReturnConfig(endpoint: string, route: string, payload: any, isGet?: boolean): AxiosRequestConfig {
+    public updateAndReturnConfig(endpoint: string, route: string, payload: any, isGet?: boolean, whitelistHeader?: string): AxiosRequestConfig {
         this.config.baseURL = endpoint; // e.g. https://api.bitcloutapps.ninja
         this.config.url = route;
         
@@ -22,7 +22,11 @@ export class DeSoFacade {
 
         this.config.headers = {
             'Accept': 'application/json, text/plain, */*',
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+        }
+
+        if (whitelistHeader) {
+            this.config.headers['User-Agent'] = whitelistHeader;
         }
 
         if (this.token) {
