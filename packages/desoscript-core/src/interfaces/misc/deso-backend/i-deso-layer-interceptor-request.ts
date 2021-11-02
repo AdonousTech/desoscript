@@ -63,6 +63,11 @@ import { IBlockPublicKeyRequestPayload,
          IUpdateProfileRequestPayload } from '../../users';
         
 
+/**
+ * Main request object for DeSo
+ * @export
+ * @interface IDesoLayerInterceptorRequest
+ */
 export interface IDesoLayerInterceptorRequest {
     userSub?: string;
     id?: string; 
