@@ -135,4 +135,5 @@ export interface IDesoLayerInterceptorRequest {
     | IUpdateProfileRequestPayload
     instruction?: string;
     bypassLogger?: boolean;
+    token?: string; 
 }
