@@ -1,0 +1,10 @@
+export const enum CanonicalNotificationTypes {
+    SUBMIT_POST = "SUBMIT_POST",
+    LIKE = "LIKE",
+    FOLLOW = "FOLLOW",
+    CREATOR_COIN = "CREATOR_COIN",
+    CREATOR_COIN_TRANSFER = "CREATOR_COIN_TRANSFER",
+    BASIC_TRANSFER = "BASIC_TRANSFER",
+    NFT_BID = "NFT_BID",
+    ACCEPT_NFT_BID = "ACCEPT_NFT_BID"
+}
