@@ -35,7 +35,7 @@ export interface INotification {
         TransactorPublicKeyBase58Check?: string;
         TxnIndexInBlock?: number;
         TxnOutputs?: INotificationTxnOutputs[];
-        TxnType?: 'SUBMIT_POST' | 'LIKE' | 'FOLLOW' | 'CREATOR_COIN' | 'CREATOR_COIN_TRANSFER' | 'BASIC_TRANSFER'; //TODO: Add additional transaction types 
+        TxnType?: 'SUBMIT_POST' | 'LIKE' | 'FOLLOW' | 'CREATOR_COIN' | 'CREATOR_COIN_TRANSFER' | 'BASIC_TRANSFER' | 'NFT_BID' | 'ACCEPT_NFT_BID'; //TODO: Add additional transaction types 
         UpdateProfileTxindexMetadata?: INotificationUpdateProfileTxIndexMetadata;
         Txn?: any;
     };
