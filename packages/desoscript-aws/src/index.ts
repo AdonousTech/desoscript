@@ -1,5 +1,6 @@
 // auth
 export * from './interfaces/auth/i-cognito-id-token-payload';
+export * from './interfaces/auth/i-decoded-jwt-token';
 // data
 export * from './interfaces/data/i-data-layer-interceptor-request';
 // iot
