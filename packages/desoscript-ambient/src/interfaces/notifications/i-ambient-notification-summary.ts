@@ -1,36 +1,36 @@
 export interface IAmbientNotificationSummary {
     notifications: {
-        likes: {
+        likes?: {
             count: number;
-            phrase: 'likes'
+            phrase: string;
         },
-        reposts: {
+        reposts?: {
             count: number,
-            phrase: 'content reposts'
+            phrase: string;
         },
-        follows: {
+        follows?: {
             count: number,
-            phrase: 'follows'
+            phrase: string;
         },
-        creatorcoin: {
+        creatorcoin?: {
             count: number,
-            phrase: 'creator coin purchases'
+            phrase: string;
         },
-        creatorcointransfer: {
+        creatorcointransfer?: {
             count: number,
-            phrase: 'creator coin transfers'
+            phrase: string;
         },
-        basictransfer: {
+        basictransfer?: {
             count: number,
-            phrase: 'DESO transfers'
+            phrase: string;
         },
-        nftbid: {
+        nftbid?: {
             count: number,
-            phrase: 'NFT bids'
+            phrase: string;
         },
-        nftbidaccepted: {
+        nftbidaccepted?: {
             count: number,
-            phrase: 'NFT bid acceptances'
+            phrase: string;
         }
     }
 }
