@@ -16,5 +16,6 @@ export interface IDecodedJWTToken {
         jti: string;
         client_id: string;
         username: string;
-    }
+    },
+    signature: string;
 }
