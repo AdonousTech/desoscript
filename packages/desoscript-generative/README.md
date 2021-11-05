@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const desoscriptAmbient = require('@adonoustech/desoscript-ambient');
+const desoscriptAmbient = require('@adonoustech/desoscript-generative');
 
 // TODO: DEMONSTRATE API
 ```
