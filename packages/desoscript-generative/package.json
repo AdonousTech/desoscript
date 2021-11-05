@@ -1,6 +1,6 @@
 {
   "name": "@adonoustech/desoscript-generative",
-  "version": "1.0.0",
+  "version": "1.9.0",
   "scripts": {
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:es": "tsc -p tsconfig.es.json",
