@@ -13,3 +13,4 @@ export * from './i-deso-layer-stateless-user-request';
 export * from './i-deso-layer-submit-post-request';
 export * from './i-deso-layer-submit-tx-request';
 export * from './i-deso-layer-interceptor-request';
+export * from './i-deso-layer-get-nft-for-nft-post-request';
