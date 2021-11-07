@@ -6,5 +6,6 @@ export interface IGenerativeCollectionItem {
     edition: number;
     date: number;
     attributes: {[key: string]: string},
+    DeSoPostHashHex: string;
     compiler: string;
 }
