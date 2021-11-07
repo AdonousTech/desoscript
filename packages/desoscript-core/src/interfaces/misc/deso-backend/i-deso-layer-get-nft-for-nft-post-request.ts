@@ -1,4 +1,4 @@
-import { IGetNFTEntriesForNFTPostRequestPayload } from "packages/desoscript-core/dist/types";
+import { IGetNFTEntriesForNFTPostRequestPayload } from "../../nft/i-get-nft-entries-for-post-request-payload";
 
 export interface IDesoLayerGetNFTForNFTPostRequest {
     userSub: string;
