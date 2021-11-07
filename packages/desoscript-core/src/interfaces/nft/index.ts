@@ -13,3 +13,4 @@ export * from './i-nft-bid-entry-response';
 export * from './i-nft-collection-response';
 export * from './i-nft-entry-response';
 export * from './i-update-nft-request-payload';
+export * from './i-get-nft-entries-for-post-response-payload';
