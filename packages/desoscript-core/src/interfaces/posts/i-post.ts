@@ -59,6 +59,10 @@ export interface IPost {
     LikeCount?: number,
     DiamondCount?: number,
     DiamondsFromSender?: number,
+    HasUnlockable?: boolean,
+    HotnessScore?: number,
+    InGlobalFeed?: boolean,
+    InHotFeed?: boolean,
     PostEntryReaderState?: {
         LikedByReader?: boolean,
         DiamondLevelBestowed?: number,
@@ -70,6 +74,17 @@ export interface IPost {
     CommentCount?: number,
     RecloutCount?: number,
     QuoteRecloutCount?: number,
+    QuoteRepostCount?: number,
     ParentPosts?: IPost[],
-    ReaderComments?: IPost[]; 
+    ReaderComments?: IPost[],
+    IsNFT?: boolean,
+    NFTRoyaltyToCoinBasisPoints?: number,
+    NFTRoyaltyToCreatorBasisPoints?: number,
+    NumNFTCopies?: number,
+    NumNFTCopiesBurned?: number,
+    NumNFTCopiesForSale?: number,
+    PostMultiplier?: number,
+    RepostCount?: number,
+    RepostedPostEntryResponse?: IPost,
+    VideoURLs
 }
