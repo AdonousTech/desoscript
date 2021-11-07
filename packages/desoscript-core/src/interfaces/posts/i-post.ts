@@ -86,5 +86,5 @@ export interface IPost {
     PostMultiplier?: number,
     RepostCount?: number,
     RepostedPostEntryResponse?: IPost,
-    VideoURLs
+    VideoURLs?: any
 }
