@@ -3,6 +3,6 @@ export interface IGetPostsForPublicKeyPayload {
     MediaRequired?: boolean;
     Username: string;
     ReaderPublicKeyBase58Check: string;
-    LastPostHashHex?: '';
+    LastPostHashHex?: string;
     NumToFetch: number;
 }
