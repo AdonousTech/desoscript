@@ -5,9 +5,10 @@ export interface IPostSubmittable {
     ParentStakeID: string;
     Title: string;
     BodyObj: any;
-    RecloutedPostHashHex: string;
+    RepostedPostHashHex: string;
     PostExtraData: any;
     Sub: string;
     IsHidden: boolean;
     MinFeeRateNanosPerKB: number;
+    InTutorial: boolean;
 }
