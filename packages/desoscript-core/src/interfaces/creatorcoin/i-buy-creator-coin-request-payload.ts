@@ -1,9 +1,9 @@
 export interface IBuyCreatorCoinRequestPayload {
-    BitCloutToAddNanos: number;
-    BitCloutToSellNanos: number;
+    DeSoToAddNanos: number;
+    DeSoToSellNanos: number;
     CreatorCoinToSellNanos: number;
     CreatorPublicKeyBase58Check: string;
-    MinBitCloutExpectedNanos: number;
+    MinDeSoExpectedNanos: number;
     MinCreatorCoinExpectedNanos: number;
     MinFeeRateNanosPerKB: number;
     OperationType: 'buy';
