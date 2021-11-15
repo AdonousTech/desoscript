@@ -4,5 +4,6 @@ export const enum CanonicalDLIInstructions {
     QUERY = 'query',
     QUERY_RECURSIVE_ITEM_SET = 'query-recursive-item-set',
     QUERY_RECURSIVE_ITEM_SET_ANALYTICS = "query-recursive-item-set-analytics",
-    QUERY_RECURSIVE_NESTED_ITEM_SET = "query-recursive-nested-item-set" 
+    QUERY_RECURSIVE_NESTED_ITEM_SET = "query-recursive-nested-item-set",
+    SCAN_RECURSIVE = 'scan-recursive' 
  }
