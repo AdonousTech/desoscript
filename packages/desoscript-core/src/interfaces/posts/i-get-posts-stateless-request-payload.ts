@@ -11,5 +11,6 @@ export interface IGetPostsStatelessRequestPayload {
     GetPostsByDESO: boolean;
     MediaRequired: boolean;
     PostsByDESOMinutesLookback: number;
-    AddGlobalFeedBool: boolean
+    AddGlobalFeedBool: boolean;
+    targetNodeUri?: string;
 }
