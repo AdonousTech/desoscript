@@ -5,4 +5,5 @@ export interface IDesoLayerStatelessPostsRequest {
     payload: IGetPostsStatelessRequestPayload,
     instruction?: string;
     bypassLogger?: boolean;
+    targetNodeUri?: string;
 }
