@@ -1,4 +1,4 @@
 import { IPost } from ".."
-export abstract class basePost {
+export abstract class BasePost {
    abstract post: IPost 
 }
