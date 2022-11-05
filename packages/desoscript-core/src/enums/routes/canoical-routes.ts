@@ -1,3 +1,6 @@
+/* 
+Contains all the friendly route names for the application.
+*/
 export const enum CanonicalRoutes {
     // Standard Routes
     routePathBlockPublicKey = '/api/v0/block-public-key',
