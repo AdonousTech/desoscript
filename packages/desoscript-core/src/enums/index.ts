@@ -1,3 +1,4 @@
+export * from './routes/canoical-routes';
 export * from './canonical-cli-instructions.enum';
 export * from './tutorial/tutorial-status.enum';
 export * from './notifications/canonical-notification-types';

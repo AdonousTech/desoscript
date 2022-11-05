@@ -1,4 +1,4 @@
-export const enum Canonicalroutes {
+export const enum CanonicalRoutes {
     // Standard Routes
     routePathBlockPublicKey = '/api/v0/block-public-key',
     routePathBuyOrSellCreatorCoin = '/api/v0/buy-or-sell-creator-coin',
