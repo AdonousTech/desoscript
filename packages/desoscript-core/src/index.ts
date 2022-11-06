@@ -4,5 +4,5 @@
  * @module desoscript-core
 */
 export * from './enums';
-export * from './interfaces';
+export * from './enums/interfaces';
 export * from './base';

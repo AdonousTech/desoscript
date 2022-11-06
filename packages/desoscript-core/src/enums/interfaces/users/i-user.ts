@@ -1,5 +1,5 @@
 import { IBalanceEntryResponse } from "../financial/i-balance-entry-response";
-import { TutorialStatus } from "../../enums"; 
+import { TutorialStatus } from "../.."; 
 import { IComment } from "../comments/i-comment";
 import { IPost } from "../posts/i-post";
 

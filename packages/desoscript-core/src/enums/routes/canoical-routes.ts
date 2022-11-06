@@ -4,6 +4,7 @@ Contains all the friendly route names for the application.
 export const enum CanonicalRoutes {
     // Standard Routes
     routePathBlockPublicKey = '/api/v0/block-public-key',
+    routePathBrowse = 'browse',
     routePathBuyOrSellCreatorCoin = '/api/v0/buy-or-sell-creator-coin',
     routePathCreateFollowTxnStateless = '/api/v0/create-follow-txn-stateless',
     routePathCreateLikeStateless = '/api/v0/create-like-stateless',
@@ -20,6 +21,7 @@ export const enum CanonicalRoutes {
     routePathGetHotFeed = '/api/v0/get-hot-feed',
     routePathGetJumioStatusForPublicKey = '/api/v0/get-jumio-status-for-public-key',
     routePathGetLikesForPost = '/api/v0/get-likes-for-post',
+    routePathLanding = '/',
     routePathGetMessagesStateless = '/api/v0/get-messages-stateless',
     routePathGetNotifications = '/api/v0/get-notifications',
     routePathGetPostsForPublicKey = '/api/v0/get-posts-for-public-key',
@@ -28,6 +30,7 @@ export const enum CanonicalRoutes {
     routePathGetPublicKeyForUsername = '/api/v0/get-public-key-for-user-name',
     routePathGetQuoterepostsForPost = '/api/v0/get-quote-reposts-for-post',
     routePathGetrepostsForPost = '/api/v0/get-reposts-for-post',
+    routePathSignUp = 'sign-up',
     routePathGetSingleProfile = '/api/v0/get-single-profile',
     routePathGetSingleProfilePicture = '/api/v0/get-single-profile-picture',
     routePathGetTxn = '/api/v0/get-txn',
